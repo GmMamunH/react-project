@@ -1,0 +1,111 @@
+/* ================== google font ==================== */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+
+/* font-family: 'Space Grotesk', sans-serif; */
+/* =================================== */
+
+/* =================== reset ==================== */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --body-color: #041c32;
+  --text-color: #fff;
+  --btn-color: #0788ff;
+  --about-color: #043058;
+  --hover-color: #040c16;
+  --bl-text-color: #707476;
+}
+body {
+  background: var(--body-color);
+  font-family: "Space Grotesk", sans-serif;
+  font: 1em sans-serif;
+  line-height: 1.6;
+  color: var(--bl-text-color);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.inline-flex {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.place-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.place-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* ======================= Header ========================== */
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  border-bottom: 1px solid var(--hover-color);
+  padding: 20px 0px;
+}
+.logo img {
+  width: 50px;
+}
+
+.logo h1 {
+  color: var(--text-color);
+  font-weight: 400;
+}
+
+.main-menu ul {
+  display: flex;
+  gap: 30px;
+}
+
+.main-menu li a {
+  color: var(--text-color);
+  font-weight: 500;
+}
+
+.letsTalk button {
+  font-weight: 500;
+  padding: 13px 30px;
+  background-color: var(--btn-color);
+  border-radius: 40px;
+  border: none;
+  cursor: pointer;
+  color: var(--text-color);
+}
+
+.letsTalk button:hover {
+  background-color: var(--body-color);
+  border: 1px solid var(--text-color);
+}
+
+.toggle{
+  display: none;
+}
