@@ -1,6 +1,6 @@
 // import "../assets/css/style.css";
 // import "../assets/css/respon.css";
-import "../assets/js/main";
+// import "../assets/js/main";
 
 const Navbar = () => {
   return (
